@@ -1,0 +1,38 @@
+@layer global {
+  body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+
+    background-color: #bada00; 
+    color: #bf1717;
+    
+    padding-block: 20px;
+    padding-inline: 20px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.625;
+    font-weight: 500;
+  }
+
+  a:link,
+  a:visited {
+    font-size: 1.5625rem;
+    font-weight: 300;
+  }
+
+  a:hover,
+  a:active {
+    color: #9a1212;
+   
+  }
+
+  p {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 2.6;
+  }
+}

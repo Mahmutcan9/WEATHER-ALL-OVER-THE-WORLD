@@ -1,0 +1,11 @@
+@layer reset, theme, global, layout, modules, utilities;
+
+
+body {
+  background-image: url(../hava\ durumu\ 02.webp); /* resim koyuyorum*/
+  background-size: cover; /* resmi ekran boyutuna uydurur */
+  background-position: center; /* resmi ortalar */
+  background-repeat: no-repeat; /* resmi tekrar ettirmez */
+  margin: 0;
+  padding: 0;
+}

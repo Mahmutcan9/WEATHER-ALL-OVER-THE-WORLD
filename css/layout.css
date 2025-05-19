@@ -1,0 +1,6 @@
+@layer layout {
+  body {
+    max-inline-size: calc(90rem + 40px);
+    margin-inline: auto;
+  }
+}

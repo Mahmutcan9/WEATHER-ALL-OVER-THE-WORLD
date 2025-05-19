@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>The Weather App</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/theme.css" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="stylesheet" href="./css/layout.css" />
+		<link rel="stylesheet" href="./css/modules.css" />
+		<link rel="stylesheet" href="./css/utilities.css" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+
+
+
+		<div class="wrapper">
+			<header class="header-area">
+				<nav class="navbar text-center">
+					<p class="logo" id="logo-id">Gencer Weather</p>
+					<ul class="menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Download App</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+					<div class="lang">
+						<a href="#">DE</a>
+						<span>|</span>
+						<a href="#">EN</a>
+					</div>
+					<a class="sign" href="#">Sign up</a>
+				</nav>
+				<h1 class="slogan text-center">
+					Seeing the weather of the whole world with
+					<span>Gencer Weather!</span>
+				</h1>
+			</header>
+			<main class="main-card">
+				<section class="search-area">
+					<div class="search-content">
+						<form action="submit" role="search">
+							<input
+								class="search-bar"
+								type="text"
+								placeholder="Search for a city"
+							/>
+						</form>
+					</div>
+					<div class="search-func">
+						<a class="location" href="#">Location</a>
+						<p class="time"></p>
+					</div>
+				</section>
+				<div>
+					<p class="alert text-center" style="display: none"></p>
+				</div>
+				<section class="card-area">
+					<ul class="card-content">
+						
+							<div class="card-info" id="userLocation">
+								
+							</div>
+						</li>
+						
+					</ul>
+				</section>
+			</main>
+		</div>
+		<script src="./script.js"></script>
+		<script src="./clock.js"></script>
+	</body>
+</html>
